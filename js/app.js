@@ -6,7 +6,7 @@ const API_BASE = (function() {
     const isLocal = typeof window !== 'undefined' &&
         (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1');
     if (isLocal) return 'http://localhost:3000/api';
-    return 'https://risegobackend-production.up.railway.app/api';
+    return 'https://risegobackend-production-57e5.up.railway.app/api';
 })();
 const SESSION_KEY = 'risego_session';
 const CITY_KEY = 'risego_city';
